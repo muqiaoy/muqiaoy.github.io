@@ -4854,6 +4854,17 @@ input[type="button"].btn-block {
   text-decoration: none;
   background-color: #d39e00;
 }
+.badge-java {
+  color: #fff;
+  background-color: #7D33FF;
+}
+
+.badge-java[href]:hover, .badge-java[href]:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #d39e00;
+}
+
 
 .badge-danger {
   color: #fff;
