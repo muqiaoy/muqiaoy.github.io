@@ -235,6 +235,35 @@ ul.timelinelist > li:before {
     height: 20px;
     z-index: 400;
 }
+ul.ul-edu {
+  list-style: none;
+}
+
+ul.ul-edu li {
+  position: relative;
+  margin-top:1em;
+  padding: 0px 0px 4px 3px;
+}
+ul.ul-edu img {
+  padding-left: -10px;
+  width: 3.5em;
+}
+
+ul.ul-edu li .description p {
+  margin: 0;
+  margin-left: 2em;
+}
+
+ul.ul-edu li .description p.course {
+  font-size: 1.2rem;
+}
+
+ul.ul-edu li .description p.institution {
+  font-size: 0.9rem;
+  color: rgba(0,0,0,0.6);
+  padding-left:2em;
+}
+
 
 .timeline {
     list-style: none;
@@ -334,7 +363,7 @@ ul.timelinelist > li:before {
         }
 
         .timeline > li.timeline-inverted > .timeline-panel {
-            float: right;
+            float: left;
         }
 
             .timeline > li.timeline-inverted > .timeline-panel:before {
