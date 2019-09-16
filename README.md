@@ -1,2 +1,2 @@
-# muqiaoyang.github.io
-A personal webpage. O(∩_∩)O~~
+# muqiaoy.github.io
+My personal webpage. O(∩_∩)O~~
