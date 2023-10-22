@@ -155,12 +155,15 @@ In this paper, we propose a <span class="bolded">Unified Speech Enhancement and 
 <div class="white_section_nerf">
   <div class="w-container">
   <h2 class="grey-heading_nerf">Demo: Speech Enhancement</h2>
+      <br></br>
+      <p class="paragraph-2 nerf_text nerf_results_text" style="display:inline-block">
+        Overall Demo: </p><br/>
       <p class="paragraph-3 nerf_text nerf_results_text" style="display:inline-block">
         Source <br>
         <td><audio class="audio-player" style="width: 260px;" preload="metadata" controls="controls">
                                                 <source src="resource/enhan_src1.wav" type="audio/wav" />
                                                 </audio></td><br>
-        Target <br>
+        Target (Denoised) <br>
         <td><audio class="audio-player" style="width: 260px;" preload="metadata" controls="controls">
                                                 <source src="resource/enhan_tgt1.wav" type="audio/wav" />
                                                 </audio></td>
@@ -169,7 +172,7 @@ In this paper, we propose a <span class="bolded">Unified Speech Enhancement and 
         <td><audio class="audio-player" style="width: 260px;" preload="metadata" controls="controls">
                                                 <source src="resource/enhan_src2.wav" type="audio/wav" />
                                                 </audio></td><br>
-        Target <br>
+        Target (Dereverbed) <br>
         <td><audio class="audio-player" style="width: 260px;" preload="metadata" controls="controls">
                                                 <source src="resource/enhan_tgt2.wav" type="audio/wav" />
                                                 </audio></td>
@@ -184,12 +187,37 @@ In this paper, we propose a <span class="bolded">Unified Speech Enhancement and 
                                                 <source src="resource/enhan_tgt3.wav" type="audio/wav" />
                                                 </audio></td>
       </p>
+      <br></br>
+
+
+      <p class="paragraph-2 nerf_text nerf_results_text" style="display:inline-block">
+        Ablation Experiments: </p><br/>
+      <p class="paragraph-3 nerf_text nerf_results_text" style="display:inline-block">
+        Source <br>
+        <td><audio class="audio-player" style="width: 260px;" preload="metadata" controls="controls">
+                                                <source src="resource/enhan2_src.wav" type="audio/wav" />
+                                                </audio></td><br>
+      <p class="paragraph-3 nerf_text nerf_results_text" style="display:inline-block">
+        Without Acoustic Prompts <br>
+        <td><audio class="audio-player" style="width: 260px;" preload="metadata" controls="controls">
+                                                <source src="resource/enhan2_woHubert.wav" type="audio/wav" />
+                                                </audio></td><br>
+      </p>
+      <p class="paragraph-3 nerf_text nerf_results_text" style="display:inline-block">
+        With Acoustic Prompts <br>
+        <td><audio class="audio-player" style="width: 260px;" preload="metadata" controls="controls">
+                                                <source src="resource/enhan2_withHubert.wav" type="audio/wav" />
+                                                </audio></td><br>
+      </p>
   </div>
 </div>
 
 <div class="white_section_nerf">
   <div class="w-container">
   <h2 class="grey-heading_nerf">Demo: Speech Editing</h2>
+      <br></br>
+      <p class="paragraph-2 nerf_text nerf_results_text" style="display:inline-block">
+        Overall Demo: </p><br/>
       <p class="paragraph-3 nerf_text nerf_results_text" style="display:inline-block">
         Example sound <br>
         <td><audio class="audio-player" style="width: 260px;" preload="metadata" controls="controls">
@@ -220,6 +248,8 @@ In this paper, we propose a <span class="bolded">Unified Speech Enhancement and 
                                                 </audio></td>
       </p>
       <br></br>
+      <p class="paragraph-2 nerf_text nerf_results_text" style="display:inline-block">
+        Contollable Generation Effect: </p><br/>
       <p class="paragraph-3 nerf_text nerf_results_text">
         Raw audio <br>
         <td><audio class="audio-player" style="width: 260px;" preload="metadata" controls="controls">

@@ -2805,6 +2805,18 @@ img {
     text-transform: none
 }
 
+
+.paragraph-2.nerf_text,.paragraph-3.stega_text {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 300;
+    text-align: justify
+}
+
+
 .paragraph-2.pub_para {
     margin-top: 10px;
     text-align: justify
